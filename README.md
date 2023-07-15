@@ -1,2 +1,2 @@
-# vuejs-on-s3-oidc
-publish Vue.js on S3
+# vuejs-on-s3
+publish Vue.js on S3 with GitHub Actions and OpenID Connect
