@@ -60,5 +60,5 @@ jobs:
           role-to-assume: arn:aws:iam::146193870787:role/vuejs-on-s3-oidc-prod-GitHubOIDC-Role
           aws-region: ap-northeast-1
       
-      - name: deployment artifact
+      - name: deployment artifact2
         run: aws s3 sync . s3://vuejs-on-s3-oidc-prod-static-bucket-mm9r9u --exact-timestamps --region ap-northeast-1
